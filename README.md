@@ -1,6 +1,6 @@
 # platform_framework_base_SystemUI_Zen
 What is it?
->This is Custom SystemUI Framework for Zenfone device
+>This is Custom SystemUI Framework for Zenfone device that will change the SystemUI Framework of the Default. The UI will be similar or close to Stock Android, like Google Devices Family from the look, but with some tweaks such as weather icon, network data traffic and time by time, the color of the SystemUI will change per six hours.
 
 What is SystemUI?
 >SystemUI is System User Interface that you can manage the system bar which is dedicated to the display of notifications, communication of device status, and device navigation. See more about it at [here](https://developer.android.com/training/system-ui/index.html)
