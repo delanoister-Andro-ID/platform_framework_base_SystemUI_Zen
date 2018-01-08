@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom|center" android:id="@id/carrier_label_combo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/close_handle_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.systemui.statusbar.phone.CarrierLabel android:textAppearance="@style/TextAppearance.StatusBar.Expanded.Network" android:id="@id/carrier_label_sim1" android:layout_width="wrap_content" android:layout_height="@dimen/carrier_label_height" />
+    <TextView android:textAppearance="@style/TextAppearance.StatusBar.Expanded.Network" android:id="@id/carrier_label_splitter" android:layout_width="wrap_content" android:layout_height="@dimen/carrier_label_height" android:layout_centerHorizontal="true" />
+    <com.android.systemui.statusbar.phone.CarrierLabel android:textAppearance="@style/TextAppearance.StatusBar.Expanded.Network" android:id="@id/carrier_label_sim2" android:layout_width="wrap_content" android:layout_height="@dimen/carrier_label_height" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="status_bar_recents_app_label_width">140.0dip</dimen>
+    <item type="dimen" name="navigation_bar_height">@*android:dimen/navigation_bar_height_portrait</item>
+    <dimen name="scroll_view_margin_bottom">111.0dip</dimen>
+    <dimen name="recent_app_clear_all_button_padding">16.0dip</dimen>
+</resources>

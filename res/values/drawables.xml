@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="APKTOOL_DUMMY_0213">false</item>
+    <item type="drawable" name="notification_number_text_color">#ffffffff</item>
+    <item type="drawable" name="ticker_background_color">#ff1d1d1d</item>
+    <item type="drawable" name="system_bar_background">@color/system_bar_background_opaque</item>
+    <item type="drawable" name="status_bar_recents_app_thumbnail_background">#88000000</item>
+    <item type="drawable" name="status_bar_notification_row_background_color">#ff090909</item>
+    <item type="drawable" name="recents_callout_line">#99ffffff</item>
+    <item type="drawable" name="notification_item_background_legacy_color">#ffaaaaaa</item>
+    <item type="drawable" name="heads_up_notification_bg_pressed">#ff33b5e5</item>
+    <item type="drawable" name="notification_header_bg">#ff000000</item>
+    <item type="drawable" name="panel_background">#00000000</item>
+    <item type="drawable" name="asus_handle_bar_background">#ffffffff</item>
+    <item type="drawable" name="asus_notification_panel_background">#00000000</item>
+    <item type="drawable" name="asus_notification_header_background">#ff5897b8</item>
+    <item type="drawable" name="status_bar_background_transparent">@color/status_bar_background_transparent_color</item>
+</resources>

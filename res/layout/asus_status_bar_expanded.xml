@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.phone.AsusNotificationPanelView android:id="@id/notification_panel" android:background="#00000000" android:paddingTop="@dimen/notification_panel_padding_top" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="@dimen/notification_panel_margin_left"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <com.dell.omni.TimeBG android:orientation="horizontal" android:id="@id/time_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.serajr.systemui.navigationdrawer.CustomDrawerLayout android:id="@id/custom_drawer_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/close_handle_underlap">
+        <View android:id="@id/handle" android:background="@drawable/status_bar_close" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/close_handle_height" />
+        <com.android.systemui.statusbar.policy.AsusCarrierLabel android:textSize="0.0sp" android:id="@id/asus_sim_carrier_label" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+        <com.android.systemui.statusbar.policy.AsusWifiLabel android:textSize="14.0sp" android:id="@id/asus_wifi_label" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/asus_quicksetting_handle_bar_height" android:animateLayoutChanges="false">
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/asus_status_bar_expanded_header" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ViewStub android:id="@id/flip_settings_stub" android:layout="@layout/asus_flip_settings" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/asus_notification_items" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="right" android:orientation="vertical" android:layout_width="@dimen/custom_drawer_layout_width" android:layout_height="fill_parent">
+            <include layout="@layout/vaq_kanan" />
+        </LinearLayout>
+    </com.serajr.systemui.navigationdrawer.CustomDrawerLayout>
+</com.android.systemui.statusbar.phone.AsusNotificationPanelView>

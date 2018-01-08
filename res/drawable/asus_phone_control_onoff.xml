@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:state_selected="true">
+        <bitmap android:gravity="center" android:src="@drawable/asus_ep_btn_bg_on" />
+    </item>
+    <item android:state_checked="true" android:state_selected="false">
+        <bitmap android:gravity="center" android:src="@drawable/asus_ep_btn_bg_hl" />
+    </item>
+    <item android:state_checked="false" android:state_selected="true">
+        <bitmap android:gravity="center" android:src="@drawable/asus_ep_btn_bg_pf" />
+    </item>
+    <item android:state_checked="false" android:state_selected="false">
+        <bitmap android:gravity="center" android:src="@drawable/asus_ep_btn_bg_off" />
+    </item>
+    <item android:state_enabled="false">
+        <bitmap android:gravity="center" android:src="@drawable/asus_ep_btn_bg_off" />
+    </item>
+</selector>

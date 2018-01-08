@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/asus_notification_items" android:background="@drawable/asus_notification_panel_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.systemui.statusbar.phone.AsusNotificationScrollView android:id="@id/scroll" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="ifContentScrolls">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include layout="@layout/dell_atut" />
+                <include layout="@layout/aoishow" />
+                <com.android.systemui.statusbar.policy.NotificationRowLayout android:id="@id/alwaysTopItems" android:background="@drawable/panel_background" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <include android:id="@id/notification_header" layout="@layout/asus_notification_header" />
+                <com.android.systemui.statusbar.policy.NotificationRowLayout android:id="@id/latestItems" android:layout_width="fill_parent" android:layout_height="wrap_content" systemui:rowHeight="@dimen/notification_row_min_height" />
+                <LinearLayout android:gravity="right" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <Button android:textSize="0.0dip" android:textColor="@color/asus_notification_clear_all_text_color" android:gravity="right" android:id="@id/clear_all_button" android:background="@drawable/ic_notify_clear" android:layout_width="25.0dip" android:layout_height="@dimen/asus_notification_clear_all_height" android:text="@string/status_bar_clear_all_button" android:layout_alignBottom="@id/panel_title_holder" android:layout_alignParentRight="true" android:contentDescription="@string/accessibility_clear_all" android:fontFamily="sans-serif" />
+                    <Button android:textSize="0.0dip" android:textColor="@color/asus_notification_clear_all_text_color" android:gravity="right" android:id="@id/more_button" android:background="@drawable/ic_notify_clear" android:layout_width="25.0dip" android:layout_height="@dimen/asus_notification_clear_all_height" android:layout_alignBottom="@id/panel_title_holder" android:fontFamily="sans-serif" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.android.systemui.statusbar.phone.AsusNotificationScrollView>
+        <include android:id="@id/notification_header_top" android:background="@drawable/asus_notification_panel_background" android:visibility="gone" layout="@layout/asus_notification_header" />
+    </FrameLayout>
+</LinearLayout>

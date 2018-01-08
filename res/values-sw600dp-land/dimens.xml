@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="notification_panel_margin_bottom">0.0dip</dimen>
+    <dimen name="notification_panel_margin_left">0.0dip</dimen>
+    <item type="dimen" name="navigation_bar_height">@*android:dimen/navigation_bar_height</item>
+    <dimen name="recent_app_clear_all_button_padding">73.0dip</dimen>
+</resources>

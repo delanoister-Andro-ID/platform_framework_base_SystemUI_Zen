@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="navigation_bar_height">@*android:dimen/navigation_bar_height_portrait</item>
+    <dimen name="recent_app_clear_all_button_padding">29.0dip</dimen>
+</resources>

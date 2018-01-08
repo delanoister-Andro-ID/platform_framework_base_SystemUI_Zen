@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/asus_notification_header_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <TextView android:textSize="@dimen/asus_notification_header_title_text_size" android:textColor="@color/asus_notification_header_title_text_color" android:gravity="center_vertical" android:id="@id/notification_header_title" android:paddingLeft="@dimen/asus_quicksetting_panel_header_padding_left" android:layout_width="wrap_content" android:layout_height="@dimen/asus_notification_header_height" android:text="@string/asus_notification_title" android:singleLine="true" android:layout_alignParentLeft="true" android:fontFamily="sans-serif" />
+    <LinearLayout android:background="@drawable/asus_notification_panel_background" android:layout_width="fill_parent" android:layout_height="@dimen/notification_divider_height" android:layout_alignBottom="@id/notification_header_title" />
+</RelativeLayout>

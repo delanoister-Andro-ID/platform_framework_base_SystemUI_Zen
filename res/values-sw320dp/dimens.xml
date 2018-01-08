@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="navbar_search_outerring_diameter">300.0dip</dimen>
+    <dimen name="navbar_search_outerring_radius">150.0dip</dimen>
+    <dimen name="navbar_search_panel_height">202.0dip</dimen>
+</resources>

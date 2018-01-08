@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autorotate_mode">Rotação automática</string>
+    <string name="autosync_mode">Sincronização automática</string>
+    <string name="wifisharing_mode">Ponto de acesso Wi-Fi</string>
+    <string name="splendid_mode">Modo leitura</string>
+    <string name="powersaving2_mode">Economia inteligente</string>
+    <string name="volume_mode">Som</string>
+    <string name="asus_quick_setting_miracast_title">Transmitir tela</string>
+    <string name="do_not_disturb">Não perturbe</string>
+    <string name="sim_prompt_user">Perguntar sempre</string>
+    <string name="user_owner">Proprietário</string>
+    <string name="asus_quickbox_boost">Aumentar</string>
+    <string name="asus_quickbox_screenshot">Captura de tela</string>
+    <string name="toast_contents">Esse aplicativo apenas suporta modo de tela cheia</string>
+    <string name="toast_contents2">Aplicativo de fundo apenas suporta modo de tela cheia</string>
+    <string name="dual_apps_mode">Aplicativos duplos</string>
+    <string name="dual_apps_toast_on">Ligando aplicativos duplos</string>
+    <string name="dual_apps_toast_off">Desligando aplicativos duplos</string>
+    <string name="recent_clear_app_button">Limpar Tudo</string>
+</resources>

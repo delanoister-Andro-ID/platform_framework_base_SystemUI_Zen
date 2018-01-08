@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/function_button_holder" android:paddingLeft="@dimen/asus_quicksetting_containerView_padding" android:paddingRight="@dimen/asus_quicksetting_containerView_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/quick_box_flashlight" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="@dimen/asus_quick_settings_cell_height" android:layout_weight="1.0">
+        <ImageView android:id="@id/quick_settings_flashlight_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/asus_quicksetting_controller_background_bottom" android:src="@drawable/asus_phone_quickbox_flashlight" />
+        <TextView android:textSize="@dimen/asus_quicksetting_controller_text_size" android:textColor="@drawable/asus_phone_quickbox_text_color" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/quick_box_flashlight_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/asus_quickbox_flashlight" android:singleLine="true" android:fontFamily="sans-serif" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="@dimen/asus_quick_settings_cell_height" android:layout_weight="1.0">
+        <ImageView android:id="@id/quick_settings_calculator_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/asus_quicksetting_controller_background_bottom" android:src="@drawable/asus_phone_quickbox_calculator" />
+        <TextView android:textSize="@dimen/asus_quicksetting_controller_text_size" android:textColor="@drawable/asus_phone_quickbox_text_color" android:ellipsize="end" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/asus_quickbox_calculator" android:singleLine="true" android:fontFamily="sans-serif" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="@dimen/asus_quick_settings_cell_height" android:layout_weight="1.0">
+        <ImageView android:id="@id/quick_settings_camera_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/asus_quicksetting_controller_background_bottom" android:src="@drawable/asus_phone_quickbox_camera" />
+        <TextView android:textSize="@dimen/asus_quicksetting_controller_text_size" android:textColor="@drawable/asus_phone_quickbox_text_color" android:ellipsize="end" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/asus_quickbox_camera" android:singleLine="true" android:fontFamily="sans-serif" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="@dimen/asus_quick_settings_cell_height" android:layout_weight="1.0">
+        <ImageView android:id="@id/quick_settings_quickmemo_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/asus_quicksetting_controller_background_bottom" android:src="@drawable/asus_phone_quickbox_quickmemo" />
+        <TextView android:textSize="@dimen/asus_quicksetting_controller_text_size" android:textColor="@drawable/asus_phone_quickbox_text_color" android:ellipsize="end" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/asus_quickbox_quickmemo" android:singleLine="true" android:fontFamily="sans-serif" />
+    </LinearLayout>
+</LinearLayout>

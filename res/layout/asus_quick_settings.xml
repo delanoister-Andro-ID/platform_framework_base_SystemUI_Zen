@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.phone.AsusSettingsPanelView android:id="@id/settings_panel" android:background="@drawable/panel_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.systemui.statusbar.phone.QuickSettingsScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/close_handle_underlap" android:overScrollMode="ifContentScrolls">
+            <com.android.systemui.statusbar.phone.AsusQuickSettingsBrightness android:id="@id/quick_settings_brightness" android:background="#00000000" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_margin="0.0dip" />
+            <com.android.systemui.statusbar.phone.AsusQuickSettingsContainerView android:id="@id/quick_settings_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true" android:columnCount="@integer/quick_settings_num_columns" />
+        </com.android.systemui.statusbar.phone.QuickSettingsScrollView>
+    </LinearLayout>
+    <View android:id="@id/handle" android:background="@drawable/status_bar_close" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/close_handle_height" />
+</com.android.systemui.statusbar.phone.AsusSettingsPanelView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/delano_bg_kta" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <include layout="@layout/maxdev_weather_panel" />
+    <com.maxdev.systemui.WeatherText android:gravity="center" android:id="@id/maxdev_weather_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

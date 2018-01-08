@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/asus_quicksetting_containerView_padding" android:paddingRight="@dimen/asus_quicksetting_containerView_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <com.android.systemui.statusbar.phone.AsusQuickSettingsBrightness android:id="@id/quick_settings_brightness" android:background="@drawable/asus_brightness_bg" android:padding="@dimen/asus_quicksetting_brightness_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/asus_quicksetting_brightness_margin_top" />
+    <com.android.systemui.statusbar.phone.AsusQuickSettingsContainerView android:id="@id/quick_box_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:columnCount="@integer/quick_settings_num_columns" />
+    <com.android.systemui.statusbar.phone.QuickSettingsScrollView android:id="@id/quick_settings_scroll" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="ifContentScrolls">
+        <com.android.systemui.statusbar.phone.AsusQuickSettingsContainerView android:id="@id/quick_settings_container" android:paddingBottom="@dimen/asus_quicksetting_containerView_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:columnCount="@integer/quick_settings_num_columns" />
+    </com.android.systemui.statusbar.phone.QuickSettingsScrollView>
+</LinearLayout>

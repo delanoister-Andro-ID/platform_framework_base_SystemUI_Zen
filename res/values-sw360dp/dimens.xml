@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="asus_quick_settings_cell_height">105.0dip</dimen>
+    <dimen name="asus_quicksetting_containerView_padding">16.0dip</dimen>
+    <dimen name="asus_quicksetting_containerView_padding_bottom">16.0dip</dimen>
+    <dimen name="asus_quicksetting_controller_text_size">13.0dip</dimen>
+    <dimen name="asus_quicksetting_handle_bar_height">30.0dip</dimen>
+    <dimen name="asus_quicksetting_brightness_margin_top">2.0dip</dimen>
+    <dimen name="asus_quicksetting_clock_date_textsize">30.0dip</dimen>
+    <dimen name="asus_quicksetting_clock_ampm_textsize">25.0dip</dimen>
+    <dimen name="asus_quicksetting_panel_header_padding_left">19.0dip</dimen>
+    <dimen name="asus_quicksetting_panel_header_padding_top">17.0dip</dimen>
+    <dimen name="asus_quicksetting_panel_header_padding_bottom">17.0dip</dimen>
+    <dimen name="asus_quicksetting_label_textsize">14.0dip</dimen>
+    <dimen name="asus_quicksetting_button_margin_right">13.0dip</dimen>
+    <dimen name="asus_panel_title_textsize">18.0dip</dimen>
+    <dimen name="asus_quicksetting_brightness_width_land">350.0dip</dimen>
+    <dimen name="asus_quick_settings_cell_height_land">95.0dip</dimen>
+    <dimen name="asus_quickbox_memory_textsize">11.0dip</dimen>
+    <item type="dimen" name="navigation_bar_height">@*android:dimen/navigation_bar_height</item>
+    <dimen name="recent_app_clear_all_button_padding">0.0dip</dimen>
+</resources>

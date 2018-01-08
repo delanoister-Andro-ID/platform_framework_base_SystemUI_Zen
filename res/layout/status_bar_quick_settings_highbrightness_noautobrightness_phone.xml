@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/highbrightness_toggle" android:background="@drawable/ic_phone_highbrightness" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/asus_quicksetting_brightness_padding" android:button="@null" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <SeekBar android:id="@id/slider" android:layout_width="@dimen/asus_quicksetting_brightness_bar_width" android:layout_height="wrap_content" android:maxHeight="3.0dip" android:progressDrawable="@drawable/asus_quicksetting_brightness_slider" android:thumb="@drawable/asus_phone_scrubber_control_holo" android:layout_toRightOf="@id/highbrightness_toggle" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</merge>

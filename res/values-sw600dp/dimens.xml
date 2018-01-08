@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="status_bar_recents_thumbnail_width">200.0dip</dimen>
+    <dimen name="status_bar_recents_thumbnail_height">177.0dip</dimen>
+    <dimen name="status_bar_recents_panel_left_margin_low_memory">60.0dip</dimen>
+    <dimen name="status_bar_recents_app_label_width_low_memory">160.0dip</dimen>
+    <dimen name="navbar_search_outerring_diameter">430.0dip</dimen>
+    <dimen name="navbar_search_outerring_radius">215.0dip</dimen>
+    <dimen name="navbar_search_panel_height">280.0dip</dimen>
+    <dimen name="notification_panel_margin_bottom">192.0dip</dimen>
+    <dimen name="notification_panel_margin_left">0.0dip</dimen>
+    <item type="dimen" name="settings_panel_dragzone_fraction">35.000004%</item>
+    <item type="dimen" name="notification_panel_min_height_frac">39.999996%</item>
+    <item type="dimen" name="peek_height">@dimen/close_handle_height</item>
+    <dimen name="notification_panel_width">462.0dip</dimen>
+    <dimen name="asus_quick_settings_cell_height">115.0dip</dimen>
+    <dimen name="asus_quicksetting_containerView_padding">28.0dip</dimen>
+    <dimen name="asus_quicksetting_containerView_padding_bottom">16.0dip</dimen>
+    <dimen name="asus_quicksetting_controller_text_size">14.0dip</dimen>
+    <dimen name="asus_quicksetting_brightness_margin_top">9.0dip</dimen>
+    <dimen name="asus_quicksetting_clock_date_textsize">35.0dip</dimen>
+    <dimen name="asus_quicksetting_clock_ampm_textsize">30.0dip</dimen>
+    <dimen name="asus_quicksetting_panel_header_padding_left">30.0dip</dimen>
+    <dimen name="asus_quicksetting_panel_header_padding_top">22.0dip</dimen>
+    <dimen name="asus_quicksetting_panel_header_padding_bottom">18.0dip</dimen>
+    <dimen name="asus_quicksetting_button_margin_right">15.0dip</dimen>
+    <dimen name="asus_panel_title_textsize">21.0dip</dimen>
+    <dimen name="asus_quicksetting_clock_margin_top">5.0dip</dimen>
+    <dimen name="asus_quickbox_memory_textsize">13.0dip</dimen>
+</resources>
