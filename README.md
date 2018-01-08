@@ -20,10 +20,10 @@ What is Framework?
 6. Build/compile it.
 
 ## Result
-![screenshot_2017-03-13-02-27-29](https://user-images.githubusercontent.com/1270785/34663429-5f8b830c-f489-11e7-8b0e-0e52d39acaee.png)
-![screenshot_2017-03-13-06-16-21](https://user-images.githubusercontent.com/1270785/34663436-6784314e-f489-11e7-8c90-9efa07d84061.png)
-![screenshot_2017-03-13-16-16-31](https://user-images.githubusercontent.com/1270785/34663439-6a5a876a-f489-11e7-94e0-4997cc52c2c3.png)
-![screenshot_2017-03-13-19-16-08](https://user-images.githubusercontent.com/1270785/34663441-6d3e9a52-f489-11e7-83e0-0c75af08ad64.png)
+![Screenshot_2017-03-13-02-27-29_e.png](https://res.cloudinary.com/hpiynhbhq/image/upload/v1515404080/jn7mlklsvfufpmuf99j4.png)
+![Screenshot_2017-03-13-06-16-21_e.png](https://res.cloudinary.com/hpiynhbhq/image/upload/v1515404084/arc8yp1l4zzfhsdtkrrz.png)
+![Screenshot_2017-03-13-16-16-31_e.png](https://res.cloudinary.com/hpiynhbhq/image/upload/v1515404088/s0rks54yqxfdaqh6c4de.png)
+![Screenshot_2017-03-13-19-16-08_e.png](https://res.cloudinary.com/hpiynhbhq/image/upload/v1515404091/mmk8lsznazhl5nmcgnef.png)
 
 ## Credits
 * aokp
@@ -34,3 +34,5 @@ What is Framework?
 * mda
 * serajr
 * zam
+
+Steemit @dissgo
